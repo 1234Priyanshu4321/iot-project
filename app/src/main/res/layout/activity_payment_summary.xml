@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FDFDFD">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Payment Summary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000000" />
+
+        <TextView android:id="@+id/slotInfo"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView android:id="@+id/timeInfo"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView android:id="@+id/durationInfo"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView android:id="@+id/amountInfo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/qrImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/qr_placeholder"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/payBtn"
+            android:text="Pay Now (UPI/QR)"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#388E3C"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/backBtn"
+            android:text="Back to Home"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1976D2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>
